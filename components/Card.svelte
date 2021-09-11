@@ -69,7 +69,7 @@
     <div class="card-container">
       <p class="card-number"> {cardData['number']} </p>
       <p class="card-name"> {cardData['name']} </p>
-      <img class="card-image" src={cardImagePath} alt="Girl in a jacket" />
+      <img class="card-image" src={cardImagePath} alt={cardData["name"]} />
     </div>
 
     <div class='meaning-1-container'>
